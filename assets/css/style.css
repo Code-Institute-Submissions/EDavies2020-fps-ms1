@@ -6,7 +6,7 @@
     list-style-type: none;
     margin: 0;
     padding-left: 800px;
-    background-color: #16238A;
+    background-color: #1C0A6B;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -44,16 +44,21 @@ h4 {
     font-family: 'Asap', sans-serif;
     font-weight: bold;
     width: 100%;
-    background-color: #16238A;
+    background-color: #1C0A6B;
     display: block;
     color: rgb(224, 121, 24);
     text-align: center;
-    padding: 0px;
+    padding: 5px 0px;
     text-decoration: none;
 }
 
 /*-------homepage our services-------*/
 
-h2 {
+.col-lg-4 {
     text-align: center;
 }
+
+h5 {
+    text-align: center;
+}
+
