@@ -1,0 +1,38 @@
+/* ----------------Nav bar------------ */
+
+#collapsibleNavbar {
+    font-family: 'Asap', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 800px;
+    background-color: #16238A;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#collapsibleNavbar li {
+    border-right: 1px solid #bbb;
+}
+
+#collapsibleNavbar li a {
+    display: block;
+    color: rgb(224, 121, 24);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#collapsibleNavbar a:hover {
+    background-color: #151CD4;
+}
+
+.active nav-link {
+  background-color: #151CD4;
+}
+
+/*-------Company logo & contact details-------*/
+
+#business-contacts {
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
