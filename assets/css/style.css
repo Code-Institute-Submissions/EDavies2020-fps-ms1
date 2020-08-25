@@ -1,3 +1,4 @@
+
 /* ----------------Nav bar------------ */
 
 #collapsibleNavbar {
@@ -35,4 +36,24 @@
 #business-contacts {
     padding-top: 30px;
     letter-spacing: 4px;
+}
+
+/*-------headings-------*/
+
+h4 {
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    background-color: #16238A;
+    display: block;
+    color: rgb(224, 121, 24);
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/*-------homepage our services-------*/
+
+h2 {
+    text-align: center;
 }
