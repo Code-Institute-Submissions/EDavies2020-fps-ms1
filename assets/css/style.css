@@ -17,7 +17,7 @@
 
 #collapsibleNavbar li a {
     display: block;
-    color: rgb(224, 121, 24);
+    color: #D1741D;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,14 +31,14 @@
   background-color: #151CD4;
 }
 
-/*-------Company logo & contact details-------*/
+/*-------Homepage-Company logo & contact details-------*/
 
 #business-contacts {
     padding-top: 30px;
     letter-spacing: 4px;
 }
 
-/*-------about us-------*/
+/*-------Homepage-about us-------*/
 
 #allan {
     padding-bottom: 5px;
@@ -52,13 +52,13 @@ h4 {
     width: 100%;
     background-color: #1C0A6B;
     display: block;
-    color: rgb(224, 121, 24);
+    color: #D1741D;
     text-align: center;
     padding: 5px 0px;
     text-decoration: none;
 }
 
-/*-------homepage our services-------*/
+/*-------Homepage-our services-------*/
 
 .col-lg-4 {
     text-align: center;
@@ -66,5 +66,31 @@ h4 {
 
 h5 {
     text-align: center;
+}
+
+/*-------Homepage-testimonials-------*/
+
+#testimonials p {
+    background-color:#CED1DE;
+    border-radius: 25px;
+}
+
+/*-------Footer-------*/
+
+#footer {
+    background-color: #1C0A6B;
+    color: #D1741D;
+}
+
+.company-details {
+    text-align: center;
+    border-right: 1px solid #bbb;
+}
+
+
+#copywrite {
+    color: #D1741D;
+    background-color: #1C0A6B;
+    border-top: 1px solid #bbb;
 }
 
