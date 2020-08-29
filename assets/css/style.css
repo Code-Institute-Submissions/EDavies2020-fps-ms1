@@ -1,14 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap');
+
+/*-------headings/general-------*/
+
+h4 {
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    background-color: #1C0A6B;
+    display: block;
+    color: #D1741D;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    padding: 16px;
+}
 
 /* ----------------Nav bar------------ */
 
 #collapsibleNavbar {
     font-family: 'Asap', sans-serif;
-    list-style-type: none;
-    margin: 0;
-    padding-left: 800px;
     background-color: #1C0A6B;
-    overflow: hidden;
-    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    margin: 0;
 }
 
 #collapsibleNavbar li {
@@ -30,28 +49,16 @@
 /*-------Homepage-Company logo & contact details-------*/
 
 #business-contacts {
+    text-align: left;
     padding-top: 30px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 /*-------Homepage-about us-------*/
 
-#allan {
-    padding-bottom: 5px;
-}
-
-/*-------headings-------*/
-
-h4 {
-    font-family: 'Asap', sans-serif;
-    font-weight: bold;
-    width: 100%;
-    background-color: #1C0A6B;
-    display: block;
-    color: #D1741D;
-    text-align: center;
-    padding: 5px 0px;
-    text-decoration: none;
+#about-us-text {
+    font-family: 'ASAP' sans-serif;
+    padding-top: 32px;
 }
 
 /*-------Homepage-our services-------*/
@@ -60,16 +67,23 @@ h4 {
     text-align: center;
 }
 
+.services img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h5 {
     text-align: center;
 }
 
 /*-------Homepage-testimonials-------*/
 
-#testimonials p {
+.blockquote {
+    color: black;
     background-color:#CED1DE;
-    border-radius: 25px;
-}
+    padding: 48px;
+    border-radius: 25px; 
+  }
 
 /*-------Footer-------*/
 
@@ -78,15 +92,23 @@ h5 {
     color: #D1741D;
 }
 
-.company-details {
-    text-align: center;
-    border-right: 1px solid #bbb;
-}
-
-
 #copywrite {
     color: #D1741D;
     background-color: #1C0A6B;
     border-top: 1px solid #bbb;
 }
 
+/*-------Our services page-------*/
+
+.carousel-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#services-page p {
+    display: inline-block;
+    padding: 48px 14px;
+    border: 5px;
+    border-color: black;
+}
