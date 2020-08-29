@@ -81,8 +81,8 @@ h5 {
 .blockquote {
     color: black;
     background-color:#CED1DE;
-    padding: 48px;
-    border-radius: 25px; 
+    border-radius: 25px;
+    padding: 48px 16px; 
   }
 
 /*-------Footer-------*/
