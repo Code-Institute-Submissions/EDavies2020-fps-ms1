@@ -216,4 +216,15 @@ h5 {
     position: absolute;
 }   
 
+/*-------projects page-------*/
 
+.projects {
+    background-color:rgba(200, 207, 211, 0.5);
+    padding: 8px 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.projects img {
+    padding: 0px;
+}
