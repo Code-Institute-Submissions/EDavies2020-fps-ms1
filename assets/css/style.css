@@ -13,6 +13,11 @@ h4 {
     text-transform: uppercase;
 }
 
+h5 {
+    text-align: center;
+    padding-top: 6px;
+}
+
 img {
     padding: 16px;
 }
@@ -29,8 +34,13 @@ img {
 }
 
 #navbar li a:hover {
-  background-color: rgb(18, 171, 218);
+  background-color: rgb(18, 171, 218, .7);
   color: white;
+}
+
+.active a {
+    background-color: rgb(18, 171, 218, .7);
+    color: white;
 }
 
 /*-------Homepage-Company logo & contact details-------*/
@@ -57,25 +67,37 @@ img {
     letter-spacing: 2px;
 }
 
-/*-------Homepage-about us-------*/
+/*-------Homepage our services-------*/
 
-#about-us-text {
-    padding-top: 32px;
-}
-
-.services img {
+.homepage-services img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    border: groove;
 }
 
-h5 {
+.homepage-services p {
     text-align: center;
+    padding: 16px;
+}
+
+/*-------Homepage our last job-------*/
+
+.last-job img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+}
+
+.last-job p {
+    text-align: center;
+    padding: 16px;
 }
 
 /*-------Homepage-testimonials-------*/
 
-.carousel-item
-    {
+.carousel-item {
         padding: 16px 80px;
     }
 
@@ -84,6 +106,19 @@ h5 {
     background-color:#CED1DE;
     border-radius: 10px; 
   }
+
+/*-------Homepage-about us-------*/
+
+.allan p {
+    padding-top: 32px;
+}
+
+.allan img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+}
 
 /*-------Footer-------*/
 
