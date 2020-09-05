@@ -3,7 +3,6 @@
 /*-------headings/general-------*/
 
 h4 {
-    width: 100%;
     height: 50px;
     background-color: #1C0A6B;
     display: block;
@@ -20,28 +19,18 @@ img {
 
 /* ----------------Nav bar------------ */
 
-#collapsibleNavbar {
-    font-family: 'Asap', sans-serif;
+#navbar {
     background-color: #1C0A6B;
-    width: 100%;
-    height: 50px;
-    margin: 0;
 }
 
-#collapsibleNavbar li {
+#navbar li a {
+    color: rgba(238, 90, 5, 0.815);
     border-right: 1px solid #bbb;
 }
 
-#collapsibleNavbar li a {
-    display: block;
-    color: #D1741D;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#collapsibleNavbar a:hover {
-    background-color: #151CD4;
+#navbar li a:hover {
+  background-color: rgb(18, 171, 218);
+  color: white;
 }
 
 /*-------Homepage-Company logo & contact details-------*/
@@ -74,12 +63,6 @@ img {
     padding-top: 32px;
 }
 
-/*-------Homepage-our services-------*/
-
-.col-lg-4 {
-    text-align: center;
-}
-
 .services img {
     margin-left: auto;
     margin-right: auto;
@@ -106,23 +89,21 @@ h5 {
 
 #footer {
     background-color: #1C0A6B;
-    width: 100%;
     height: 50px;
     padding-top: 16px;
+    text-align: center;
 }
 
 #footer p {
     color: rgb(18, 171, 218);
     display: inline;
-    padding-left: 115px;
-    padding-right: 115px;
+    padding: 0px 25px;
 }
 
 #copywrite {
     color: #bbb;
     background-color: #1C0A6B;
     border-top: 1px solid #bbb;
-    width: 100%;
     height: 50px;
     padding-top: 16px;
 }
@@ -226,5 +207,5 @@ h5 {
 }
 
 .projects img {
-    padding: 0px;
+    padding: 16px;
 }
