@@ -6,7 +6,8 @@ h4 {
     height: 50px;
     background-color: #1C0A6B;
     display: block;
-    color: rgb(18, 171, 218);
+    color: #bbb;
+    border-bottom: 3px solid rgba(238, 90, 5, 0.815);
     text-align: center;
     padding-top: 8px;
     text-decoration: none;
@@ -29,18 +30,13 @@ img {
 }
 
 #navbar li a {
-    color: rgba(238, 90, 5, 0.815);
-    border-right: 1px solid #bbb;
+    color: #bbb;
+    border-right: 2px solid rgba(238, 90, 5, 0.815);
 }
 
 #navbar li a:hover {
-  background-color: rgb(18, 171, 218, .7);
+  background-color: #bbb;
   color: white;
-}
-
-.active a {
-    background-color: rgb(18, 171, 218, .7);
-    color: white;
 }
 
 /*-------Homepage-Company logo & contact details-------*/
@@ -81,6 +77,12 @@ img {
     padding: 16px;
 }
 
+#services-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*-------Homepage our last job-------*/
 
 .last-job img {
@@ -93,6 +95,12 @@ img {
 .last-job p {
     text-align: center;
     padding: 16px;
+}
+
+#projects-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*-------Homepage-testimonials-------*/
@@ -122,23 +130,23 @@ img {
 
 /*-------Footer-------*/
 
-#footer {
+.footer {
     background-color: #1C0A6B;
     height: 50px;
     padding-top: 16px;
     text-align: center;
 }
 
-#footer p {
-    color: rgb(18, 171, 218);
+.footer p {
+    color: #bbb;
     display: inline;
     padding: 0px 25px;
 }
 
-#copywrite {
+.copywrite {
     color: #bbb;
     background-color: #1C0A6B;
-    border-top: 1px solid #bbb;
+    border-top: 2px solid rgba(238, 90, 5, 0.815);
     height: 50px;
     padding-top: 16px;
 }
