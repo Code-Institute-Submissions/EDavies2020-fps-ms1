@@ -20,6 +20,7 @@ h5 {
 }
 
 img {
+    margin-top: 12px;
     padding: 16px;
 }
 
@@ -159,33 +160,50 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 12px;
 }
 
-#what-we-offer {
-    padding-top: 32px;
+#services-list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.services-list p {
+#services-list p {
     text-align: left;
     background-color:#FFFFFF;
     outline-style: groove;
-    padding: 4px 4px;
 }
 
 #services-details {
-    padding-top: 50px;
-    padding-left: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #services-details p {
-    color: black;
     text-align: center;
     background-color: rgba(200, 207, 211, 0.815);
-    width: 600px;
     border-radius: 10px;
-    padding: 50px;
-    margin-bottom: 60px;
-    margin-left: 20px;
+}
+
+.enquiry-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 40px;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: rgba(238, 90, 5, 0.815)!important;
+    border-color: rgba(238, 90, 5, 0.815)!important;
+}
+
+.border-dark {
+    margin-top: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /*-------Contact us page-------*/
