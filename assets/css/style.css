@@ -273,13 +273,48 @@ img {
 
 /*-------projects page-------*/
 
-.projects {
+.projects1 {
+    font-size: small;
     background-color:rgba(200, 207, 211, 0.5);
+    border: solid 8px #1C0A6B;
     padding: 8px 16px;
     margin-top: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
-.projects img {
-    padding: 16px;
+.projects1 img {
+    padding: 0px;
+    border: solid 4px #fafafa;
+}
+
+.projects1 li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #1C0A6B;
+    color: #fafafa;
+    border-radius: 5px;
+}
+
+.projects2 {
+    font-size: small;
+    background-color: #1C0A6B;
+    border: solid 8px rgba(200, 207, 211, 0.5);
+    padding: 8px 16px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.projects2 img {
+    padding: 0px;
+    border: solid 4px #fafafa;
+}
+
+.projects2 li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #fafafa;
+    color:#1C0A6B;
+    border-radius: 5px;
 }
