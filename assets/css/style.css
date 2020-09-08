@@ -4,9 +4,9 @@
 
 h4 {
     height: 50px;
-    background-color: #1C0A6B;
+    background-color: #CED1DE;
     display: block;
-    color: #bbb;
+    color: #1C0A6B;
     border-bottom: 3px solid rgba(238, 90, 5, 0.815);
     text-align: center;
     margin-bottom: 0!important;
@@ -28,30 +28,30 @@ img {
 /* ----------------Nav bar------------ */
 
 #navbar {
-    background-color: #1C0A6B;
+    background-color: #CED1DE;
 }
 
 #navbar li a {
-    color: #bbb;
+    color: #1C0A6B;
     border-right: 2px solid rgba(238, 90, 5, 0.815);
 }
 
 #navbar li a:hover {
-  background-color: #bbb;
+  background-color: #1C0A6B;
   color: white;
 }
 
 #toggle-icon {
-    color: #bbb;
+    color: #1C0A6B;
 }
 
 /*-------Homepage-Company logo & contact details-------*/
 
 #company-logo {
-    padding-left: 40px;
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    padding-left: 16px;
 }
 
 @keyframes image-zoom {
@@ -66,6 +66,7 @@ img {
 #business-contacts {
     text-align: left;
     padding-top: 30px;
+    padding-bottom: 20px;
     letter-spacing: 2px;
 }
 
@@ -75,7 +76,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: groove;
+    border: 2px solid #1C0A6B;
+    padding: 0px;
 }
 
 .homepage-services p {
@@ -87,6 +89,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 /*-------Homepage our last job-------*/
@@ -95,7 +98,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: groove;
+    border: 2px solid #1C0A6B;
+    padding: 0px;
 }
 
 .last-job p {
@@ -107,6 +111,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 /*-------Homepage-testimonials-------*/
@@ -116,11 +121,15 @@ img {
     }
 
 .blockquote {
-    color: black;
-    background-color:#CED1DE;
+    color: #fafafa;
+    background-color:#3470A8;
     border-radius: 10px; 
     padding: 20px 10px;
   }
+
+.blockquote footer {
+    color: black;
+}
 
 /*-------Homepage-about us-------*/
 
@@ -134,13 +143,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: groove;
+    border: 2px solid #1C0A6B;
+    padding: 0px;
 }
 
 /*-------Footer-------*/
 
 .footer {
-    background-color: #1C0A6B;
+    background-color: #CED1DE;
     height: 50px;
     padding-top: 16px;
     text-align: center;
@@ -148,13 +158,13 @@ img {
 }
 
 .footer p {
-    color: #bbb;
+    color:#1C0A6B;
 }
 
 /*-------Our services page-------*/
 
 .services-page {
-    background: url("https://images.unsplash.com/photo-1586527155314-1d25428324ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background: url("https://images.unsplash.com/photo-1590146758445-40be7019507d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,7 +183,7 @@ img {
 #services-list p {
     text-align: left;
     background-color:#FFFFFF;
-    outline-style: groove;
+    border: solid 2px #1C0A6B;
     padding: 4px 8px;
 }
 
@@ -188,22 +198,15 @@ img {
 #services-details p {
     text-align: center;
     line-height: 2;
-    background-color: rgba(200, 207, 211, 0.815);
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 45px 50px;
+    border: solid 2px #1C0A6B;
 }
 
-#enquiry-link a {
-    display: flex;
-    justify-content: center;
+#enquiry-link {
     align-items: center;
-    padding: 8px 40px;
-}
-
-.btn-warning {
-    color: #212529;
-    background-color: rgba(238, 90, 5, 0.815)!important;
-    border-color: rgba(238, 90, 5, 0.815)!important;
+    margin-top: 20px;
 }
 
 .border-dark {
@@ -279,8 +282,8 @@ img {
 
 .projects1 {
     font-size: small;
-    background-color:rgba(200, 207, 211, 0.5);
-    border: solid 8px #1C0A6B;
+    background-color:#CED1DE;
+    border: solid 2px #1C0A6B;
     padding: 8px 16px;
     margin-top: 24px;
     margin-bottom: 20px;
@@ -302,8 +305,8 @@ img {
 
 .projects2 {
     font-size: small;
-    background-color: #1C0A6B;
-    border: solid 8px rgba(200, 207, 211, 0.5);
+    background-color: #3470A8;
+    border: solid 2px #CED1DE;
     padding: 8px 16px;
     margin-top: 24px;
     margin-bottom: 20px;
@@ -319,7 +322,7 @@ img {
     margin-top: 10px;
     padding: 8px 16px;
     background-color: #fafafa;
-    color:#1C0A6B;
+    color:#3470A8
     border-radius: 5px;
 }
 
