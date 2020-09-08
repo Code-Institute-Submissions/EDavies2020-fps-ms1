@@ -41,6 +41,10 @@ img {
   color: white;
 }
 
+#toggle-icon {
+    color: #bbb;
+}
+
 /*-------Homepage-Company logo & contact details-------*/
 
 #company-logo {
@@ -317,4 +321,8 @@ img {
     background-color: #fafafa;
     color:#1C0A6B;
     border-radius: 5px;
+}
+
+#project-enquiry-link {
+    margin-top: 100px;
 }
