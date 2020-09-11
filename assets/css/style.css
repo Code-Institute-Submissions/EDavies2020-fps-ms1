@@ -71,6 +71,33 @@ img {
     margin-bottom: 20px;
 }
 
+/*-------Homepage-about us-------*/
+
+.allan img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border: 2px solid #1C0A6B;
+    padding: 0px;
+}
+
+.about-me {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about-me h5 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    margin: 20px 30px;
+}
+
 /*-------Homepage our services-------*/
 
 .homepage-services {
@@ -83,7 +110,7 @@ img {
 
 .homepage-services-item {
     display: block;
-    margin: 10px 50px;
+    margin: 20px 50px;
     background-color:#fafafa;
     border: solid 2px rgba(238, 90, 5, 0.815);
 }
@@ -101,60 +128,52 @@ img {
     padding: 10px 10px;
 }
 
+.homepage-services-item a {
+    margin-top: 20px;
+}
 
 /*-------Homepage our last job-------*/
 
-.last-job img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #1C0A6B;
+.homepage-projects {
+    font-size: small;
+    background-color: rgba(73, 80, 90, 0.788);
+    border: solid 2px rgba(238, 90, 5, 0.815);
+    padding: 8px 16px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.homepage-project-details img {
     padding: 0px;
+    border: solid 2px #fafafa;
 }
 
-.last-job p {
+.homepage-project-details h5 {
     text-align: center;
-    padding: 16px;
+    color: #fafafa;
 }
 
-#projects-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 16px;
+.homepage-project-details p {
+    text-align: center;
+    color: #fafafa;
+    padding: 5px 30px;
 }
 
 /*-------Homepage-testimonials-------*/
 
 .carousel-item {
-        padding: 16px 80px;
+        padding: 32px 80px;
     }
 
 .blockquote {
     color: #fafafa;
     background-color:#3470A8;
     border-radius: 10px; 
-    padding: 20px 10px;
+    padding: 40px 10px;
   }
 
 .blockquote footer {
     color: black;
-}
-
-/*-------Homepage-about us-------*/
-
-.allan p {
-    padding-top: 32px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.allan img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #1C0A6B;
-    padding: 0px;
 }
 
 /*-------Footer-------*/
@@ -251,8 +270,8 @@ img {
 
 .recommendation img {
     display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
     border: solid 2px rgba(238, 90, 5, 0.815);
     padding: 0px;
