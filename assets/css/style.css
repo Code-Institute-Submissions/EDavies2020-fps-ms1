@@ -73,29 +73,31 @@ img {
 
 /*-------Homepage-about us-------*/
 
-.allan img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    border: 2px solid #1C0A6B;
-    padding: 0px;
+.about-me {
+    background-color:#CED1DE;
+    border: solid 2px #1C0A6B;
+    padding: 8px 16px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
-.about-me {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 30px;
+.about-me img {
+    padding: 0px;
+    border: solid 2px #1C0A6B;
 }
 
 .about-me h5 {
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    color: #1C0A6B;
+    padding: 10px 10px;
 }
 
 .about-me p {
-    margin: 20px 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #1C0A6B;
+    padding: 10px 10px;
 }
 
 /*-------Homepage our services-------*/
@@ -125,6 +127,7 @@ img {
 
 .homepage-services-item p {
     text-align: center;
+    font-size: small;
     padding: 10px 10px;
 }
 
@@ -135,7 +138,6 @@ img {
 /*-------Homepage our last job-------*/
 
 .homepage-projects {
-    font-size: small;
     background-color: rgba(73, 80, 90, 0.788);
     border: solid 2px rgba(238, 90, 5, 0.815);
     padding: 8px 16px;
