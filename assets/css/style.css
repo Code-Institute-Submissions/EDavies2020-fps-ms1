@@ -329,12 +329,9 @@ img {
 .projects1 h6 {
     text-align: center;
     line-height: 50px;
-    margin: 50px 100px;
+    margin: 50px 50px;
     padding: 20px;
-    color: #fafafa;
-    background-color: #3470A8;
-    border: 2px solid #fafafa;
-    border-radius: 5px;
+    color: #1C0A6B;
 }
 
 .projects2 {
