@@ -35,8 +35,8 @@ img {
 }
 
 #navbar li a:hover {
-  background-color: #1C0A6B;
-  color: white;
+    background-color: #1C0A6B;
+    color: white;
 }
 
 #toggle-icon {
