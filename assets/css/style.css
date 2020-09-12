@@ -1,4 +1,4 @@
-/*-------headings/general-------*/
+/*--headings/general--*/
 
 h4 {
     height: 50px;
@@ -23,7 +23,7 @@ img {
     padding: 16px;
 }
 
-/* ----------------Nav bar------------ */
+/* --Nav bar-- */
 
 #navbar {
     background-color: #CED1DE;
@@ -43,13 +43,13 @@ img {
     color: #1C0A6B;
 }
 
-/*-------Homepage-Company logo & contact details-------*/
+/*--Homepage-Company logo & contact details--*/
 
 #company-logo {
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    padding-left: 16px;
+    padding-left: 15px;
     margin-bottom: 20px;
 }
 
@@ -64,14 +64,15 @@ img {
 
 #business-contacts {
     text-align: left;
-    padding-top: 30px;
+    line-height: 30px;
+    padding-top: 50px;
     padding-bottom: 20px;
     letter-spacing: 2px;
     margin-left: 50px;
     margin-bottom: 20px;
 }
 
-/*-------Homepage-about us-------*/
+/*--Homepage-about us--*/
 
 .about-me {
     background-color:#CED1DE;
@@ -100,7 +101,7 @@ img {
     padding: 10px 10px;
 }
 
-/*-------Homepage our services-------*/
+/*--Homepage our services--*/
 
 .homepage-services {
     background: url("https://images.unsplash.com/photo-1590146758445-40be7019507d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
@@ -135,7 +136,7 @@ img {
     margin-top: 20px;
 }
 
-/*-------Homepage our last job-------*/
+/*--Homepage our last job--*/
 
 .homepage-projects {
     background-color: rgba(73, 80, 90, 0.788);
@@ -161,7 +162,7 @@ img {
     padding: 5px 30px;
 }
 
-/*-------Homepage-testimonials-------*/
+/*--Homepage-testimonials--*/
 
 .carousel-item {
         padding: 32px 40px;
@@ -178,7 +179,7 @@ img {
     color: black;
 }
 
-/*-------Footer-------*/
+/*--Footer--*/
 
 .footer {
     background-color: #CED1DE;
@@ -189,7 +190,7 @@ img {
 }
 
 
-/*-------Our services page-------*/
+/*--Our services page--*/
 
 .services-page {
     background: url("https://images.unsplash.com/photo-1590146758445-40be7019507d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
@@ -207,7 +208,7 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color:#fafafa;
-    border: solid 2px rgba(238, 90, 5, 0.815);
+    border: solid 2px #1C0A6B;
 }
 
 .services-details i {
@@ -220,7 +221,7 @@ img {
 
 .services-details h5 {
     text-align: center;
-    padding: 4px 10px;
+    padding: 10px 10px;
 }
 
 .services-details img {
@@ -235,7 +236,7 @@ img {
     padding: 2px 10px;
 }
 
-/*-------Contact us page-------*/
+/*--Contact us page--*/
 
 .bg {
     background-image: url("https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
@@ -264,7 +265,7 @@ img {
     line-height: 2;
 }
 
-/*-------Recommendation-------*/
+/*--Recommendation--*/
 
 .recommendation {
     font-size: small;
@@ -278,6 +279,7 @@ img {
 
 .recommendation img {
     padding: 0px;
+    height: 300px!important;
     border: solid 2px #1C0A6B;
 }
 
@@ -301,12 +303,12 @@ img {
 }
 
 
-/*-------projects page-------*/
+/*--projects page--*/
 
 .projects1 {
     font-size: small;
     background-color:#CED1DE;
-    border: solid 2px #1C0A6B;
+    border: solid 2px rgba(238, 90, 5, 0.815);;
     padding: 8px 16px;
     margin-top: 24px;
     margin-bottom: 20px;
@@ -321,8 +323,7 @@ img {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #1C0A6B;
-    color: #fafafa;
+    background-color: #fafafa;
     border-radius: 5px;
 }
 
@@ -337,7 +338,7 @@ img {
 .projects2 {
     font-size: small;
     background-color: rgba(73, 80, 90, 0.788);
-    border: solid 2px rgba(238, 90, 5, 0.815);
+    border: solid 2px #1C0A6B;
     padding: 8px 16px;
     margin-top: 24px;
     margin-bottom: 20px;
@@ -353,7 +354,6 @@ img {
     margin-top: 10px;
     padding: 8px 16px;
     background-color: #fafafa;
-    color:rgba(73, 80, 90, 0.788);
     border-radius: 5px;
 }
 
