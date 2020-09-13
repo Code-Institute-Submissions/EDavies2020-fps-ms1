@@ -12,7 +12,8 @@ This website has been created to promote Furlong Property Solutions (FPS) and th
 * Show services on offer
 * Allow new clients to make contact for new projects
 
-Speaking with Allan, the owner of FPS we created a [![brainstorm](assets/images/Readme-images/brainstorm.jpeg)]
+Speaking with Allan, the owner of FPS we created a [View the brainstorm here](assets/images/readme/brainstorm.jpeg)
+
 **Key Considerations**
 * Business colours - Navy blue, grey and orange to be used throughout site
 * Logo prominent
