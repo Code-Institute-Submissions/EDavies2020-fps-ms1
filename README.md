@@ -66,9 +66,9 @@ Design
 
 **Wireframes**
 * Home Page Wireframe [view](assets/images/readme/homepageWF.jpeg)
-* Services Page Wireframe [view](assets/images/readme/ServicesWF.jpeg)
+* Services Page Wireframe [view](assets/images/readme/serviceswf.jpeg)
 * Projects Page Wireframe [view](assets/images/readme/ourprojectsWF.jpeg)
-* Contact Page Wireframe [view](assets/images/readme/contactWF.jpeg)
+* Contact Page Wireframe [view](assets/images/readme/contactwf.jpeg)
 
 **Features**
 * Responsive on all device sizes
@@ -114,8 +114,8 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
 The Markup validator returned a number of warnings and errors which were resolved and when re-tested came back error/wanring free.
 There were no issues to resolve with my CSS. 
 
-* [W3C Markup Validator - Results](assets/images/readme/W3CMarkupResults.pdf)
-* [W3C CSS Validator - Results](assets/images/readme/W3CCSSresults.pdf)
+* [W3C Markup Validator - Results](assets/images/readme/w3cmarkupresults.pdf)
+* [W3C CSS Validator - Results](assets/images/readme/w3ccssresults.pdf)
 
 Testing User Experience (UX)
 ----------------------------
