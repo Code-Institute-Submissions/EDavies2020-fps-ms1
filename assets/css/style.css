@@ -239,6 +239,10 @@ div.contact-form{
     padding: 0px 25px;
     text-align: left;
 }
+.form-group p {
+    padding: 8px 25px;
+    text-align: center;
+}
 /*--recommendation--*/
 .recommendation {
     font-size: small;
