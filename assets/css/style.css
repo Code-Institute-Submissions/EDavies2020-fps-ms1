@@ -42,8 +42,9 @@ h5 {
     animation-name: image-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
-    padding-top: 30px;
-    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 40px;
     margin: 5px 0px;
 }
 @keyframes image-zoom {
