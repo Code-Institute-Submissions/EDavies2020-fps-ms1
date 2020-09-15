@@ -13,8 +13,8 @@ h4 {
     border-bottom: 1px solid rgba(238, 90, 5, 0.815);
     text-align: center;
     margin-bottom: 0 !important;
-    padding-top: 10px;
-    padding-bottom: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -40,10 +40,11 @@ h5 {
 /*--homepage-company logo & contact details--*/
 #company-logo {
     animation-name: image-zoom;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
-    padding-left: 20px;
-    margin: 20px 0px;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin: 5px 0px;
 }
 @keyframes image-zoom {
     from{
@@ -55,11 +56,11 @@ h5 {
 }
 #business-contacts {
     text-align: left;
-    line-height: 30px;
-    padding-top: 50px;
+    line-height: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
     letter-spacing: 2px;
-    padding-left: 80px;
+    padding-left: 120px;
 }
 /*--homepage-about us--*/
 .about-me {
@@ -242,6 +243,9 @@ div.contact-form{
 .form-group p {
     padding: 8px 25px;
     text-align: center;
+}
+input:invalid {
+    border: 1.5px solid rgba(255, 0, 0, 0.712);
 }
 /*--recommendation--*/
 .recommendation {
