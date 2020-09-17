@@ -25,7 +25,7 @@ Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets
 * Where the business is located in the country
 * Target audience: Local home owners/small businesses
 
-![Image](assets/images/readme/capture.jpg)
+![Image](assets/images/readme/capture.png)
 
 
 ## User Experience (UX)
@@ -257,7 +257,27 @@ The project was deployed using Github:
 ![Image](assets/images/readme/github2.jpg)
 
 
+Cloning: 
+
+[click here](assets/images/readme/cloningrepo.pdf) for the process for cloning a repository from GitHub to GitHub Desktop
 
 
+# Credits
 
+
+## Code
+
+* Code for the carousel on the homepage was copied from [Bootstrap documents] (https://getbootstrap.com/docs/4.5/components/carousel/)
+* Code for the animation of the company logo was copied from the 'Love Running project', Code institute Full stack devloper course
+
+## Media
+
+* Permission to use the image of the cake on the content page was granted by Pineapple Cafe
+* Stock images were used on the homepage services section and background, aswell as the background on the services
+    page and background on the contacts page
+* All other images are the property of FPS and I have been given permission to use by Allan Furlong, the owner.
+
+## Acknowledgements
+
+* Thank to my new mentor, Spencer Barriball for giving me extra time during my midpoint review 
 
