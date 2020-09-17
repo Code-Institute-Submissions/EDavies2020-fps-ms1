@@ -5,7 +5,7 @@
 
 This website has been created to promote Furlong Property Solutions (FPS) and the services they offer. 
 
-Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets/images/readme/brainstorm.jpeg) of his requirements to determine the following:
+Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets/images/readme/brainstorm1.png) of his requirements to determine the following:
 
 ### Website Purpose
 
@@ -104,9 +104,9 @@ Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets
 --------------
 
 
-* Home Page Wireframe [view](assets/images/readme/homepageWF.jpeg)
+* Home Page Wireframe [view](assets/images/readme/homepagewf.jpeg)
 * Services Page Wireframe [view](assets/images/readme/serviceswf.jpeg)
-* Projects Page Wireframe [view](assets/images/readme/ourprojectsWF.jpeg)
+* Projects Page Wireframe [view](assets/images/readme/ourprojectswf.jpeg)
 * Contact Page Wireframe [view](assets/images/readme/contactwf.jpeg)
 
 
@@ -123,14 +123,14 @@ Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets
 * My project code is stored in GitHub
 
 4. [Git](https://gitpod.io/workspaces/) 
-* Git was used for version control, code created in GitPod was comitted and pushed to GitHub
+* Git was used for version control, code created in GitPod was committed and pushed to GitHub
 
 5. [FontAwesome](https://fontawesome.com/) 
 * Font Awesome icons were used throughout the site to give recognisable visual symbols to the User
 
 6. [w3schools](https://www.w3schools.com/) 
 * I used w3schools examples for css and bootstrap elements when styling pages.
-    * The carousel on the homepage was copied from w3schools
+    * The carousel on the homepage was built using a tutorial from w3schools
 
 7. [stackoverflow](https://stackoverflow.com/), [css-tricks](https://css-tricks.com/) and [mdbootstrap](https://mdbootstrap.com/) 
 * I used all of the above sites to check css styling, followed tutorials and took general guidance throughout my project 
@@ -147,7 +147,7 @@ Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets
 ----------
 
 
-I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3C CSS validator and resolved any errord  
+I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3C CSS validator and resolved any errors 
 
 * [W3C Markup Validator - Results](assets/images/readme/w3cmarkupresults.pdf)
 * [W3C CSS Validator - Results](assets/images/readme/w3ccssresults.pdf)
@@ -160,7 +160,7 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
 * Easily understand what the business offers and the purpose of the website
     * At the top of the homepage is the company logo directly followed by informtion on who FPS is
     and what services FPS offer with a call to action directing the user to a full list of services.
-    * On the sevices page there are full details of what if offered by FPS.
+    * On the sevices page there are full details of what is offered by FPS.
     * On the projects page are multiple examples of the work produced by FPS.    
 
 * Easy to navigate
@@ -175,12 +175,12 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
 
 * Testimonials to show what the users think of FPS
     * On the homepage there are testimonals from customers in a carousel format
-    * There are multiple links to facebook throughout the site also which also has customer reviews
+    * There are multiple links to facebook throughout the site which also has customer reviews
 
 * Images are used to show the user examples of the quality of the work FPS offer
     * There are many images through the site showing FPS work:
         1. Homepage - Our Last project shows images from the last job completed by FPS
-        2. Services page - Each service is headed with an image from an FPS job
+        2. Services page - Each service is headed with an image from a FPS job
         3. Projects page - There are many images here along with pin pointed descriptions of the works completed
 
 * Media links to make contact and follow FPS on social media.
@@ -190,12 +190,12 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
 ### Returning user goals:
 
 * Find contact Information
-    *FPS contact information can be found in the header and footer throughout the website
+    * FPS contact information can be found in the header and footer throughout the website
 
 * See pictures of their jobs uploaded
-    * Our last job section and projects page are to be updated periodically updated to include newly completed jobs and recommendations
+    * Our last job section and projects page are to be periodically updated to include newly completed jobs and recommendations
     
-* Make contact about a future projects
+* Make contact about future projects
     * Customers can make contact using:
         * email - Found in header of each page 
         * mobile - Found in header of each page and on contacts page
@@ -203,7 +203,7 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
         * contact form on contact us page
 
 * Showing friends/recommendation
-    * The link to the website can be shared,
+    * The link to the website can be shared
     * There is an incentive advertised to encourage recommendation on contact us page
 
 ### Frequent user goals:
@@ -225,10 +225,9 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
 
 
 * The website has been tested on internet explorer, Microsoft Edge, Google Chrome and Safari (on mobile) 
-* I used http://ami.responsivedesign.is/ to test how the website would look on different media, as well as trying 
-    the webiste on desktop,
-    tablet and iphone
-* I repeatdly tested the links within the page to make sure they worked and made sure the nack buttons didnt 
+* I used [amiresponsive](http://ami.responsivedesign.is/) to test how the website would look on different media, as well as trying 
+    the website on desktop, tablet and iphone
+* I repeatedly tested the links within the page to make sure they worked and made sure the back buttons didnt 
     'break' the site
 * I emailed a link to the site to friends and family with varied knowledge of web design for feedback.
 * I made changes based on UX feedback and resent for further feedback/testing
@@ -267,7 +266,7 @@ Cloning:
 
 ## Code
 
-* Code for the carousel on the homepage was copied from [Bootstrap documents](https://getbootstrap.com/docs/4.5/components/carousel/)
+* Code for the carousel on the homepage was inspired from [Bootstrap documents](https://getbootstrap.com/docs/4.5/components/carousel/)
 * Code for the animation of the company logo was copied from the 'Love Running project', Code institute Full stack devloper course
 
 ## Media
