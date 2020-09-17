@@ -104,10 +104,10 @@ Speaking with Allan, the owner of FPS we created a brainstorm [view here](assets
 --------------
 
 
-* Home Page Wireframe [view](assets/images/readme/homepagewf.jpeg)
-* Services Page Wireframe [view](assets/images/readme/serviceswf.jpeg)
-* Projects Page Wireframe [view](assets/images/readme/ourprojectswf.jpeg)
-* Contact Page Wireframe [view](assets/images/readme/contactwf.jpeg)
+* Home Page Wireframe [view](assets/images/readme/homepagewf1.png)
+* Services Page Wireframe [view](assets/images/readme/serviceswf1.png)
+* Projects Page Wireframe [view](assets/images/readme/ourprojectswf1.jpg)
+* Contact Page Wireframe [view](assets/images/readme/contactwf1.jpg)
 
 
 ## Technologies Used
