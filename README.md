@@ -267,7 +267,7 @@ Cloning:
 
 ## Code
 
-* Code for the carousel on the homepage was copied from [Bootstrap documents] (https://getbootstrap.com/docs/4.5/components/carousel/)
+* Code for the carousel on the homepage was copied from [Bootstrap documents](https://getbootstrap.com/docs/4.5/components/carousel/)
 * Code for the animation of the company logo was copied from the 'Love Running project', Code institute Full stack devloper course
 
 ## Media
