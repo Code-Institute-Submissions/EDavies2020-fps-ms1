@@ -69,7 +69,7 @@ h5 {
     background-color:#CED1DE;
     border: solid 1px #1C0A6B;
     padding: 8px 16px;
-    margin: 10px 0px;
+    margin: 25px 0px;
     border-radius: 5px;
 }
 .about-me img {
@@ -95,7 +95,7 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px 0px;
+    margin: 25px 0px;
     padding: 40px 20px;
 }
 div.homepage-services-item {
@@ -131,7 +131,7 @@ div.homepage-services-item {
     background-color: rgba(73, 80, 90, 0.788);
     border: solid 1px rgba(238, 90, 5, 0.815);
     padding: 8px 16px;
-    margin: 10px 0px;
+    margin: 25px 0px;
 }
 .homepage-project-details img {
     padding: 0px;
@@ -206,11 +206,11 @@ div.services-details{
     padding: 10px 10px;
 }
 .services-details img {
+    width: 100%;
+    height: 40vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    height: auto;
     padding: 8px 16px;
 }
 .services-details p {
@@ -291,6 +291,9 @@ input:invalid {
     margin: 20px 0px;
 }
 .projects1 img {
+    width: 100%;
+    height: 60vh;
+    display: block;
     padding: 0px;
     border: solid 1px #fafafa;
 }
@@ -322,6 +325,9 @@ input:invalid {
     margin: 20px 0px;
 }
 .projects2 img {
+    width: 100%;
+    height: 40vh;
+    display: block;
     padding: 0px;
     border: solid 1px #fafafa;
 }
