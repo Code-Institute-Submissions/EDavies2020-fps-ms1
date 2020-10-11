@@ -153,12 +153,16 @@ I tested my HTML5 using the W3C Markup validator and tested my CSS3 using the W3
 * [W3C CSS Validator - Results](assets/images/readme/w3ccssresults.pdf)
 
 Following a 'fail' result due to the w3c checker returning no errors when checking my code i re-ran each page individually
-using the 'by direct input' option and resolved all errors returned.
+using the 'by direct input' option and resolved the errors returned using this method.
+
+All reports confirming no errors below:
 
 * [W3C Validator - Index page results](assets/images/readme/w3chtmlcheck-indexpage.pdf)
 * [W3C Validator - Services page results](assets/images/readme/w3chtmlcheck-servicespage.pdf)
 * [W3C Validator - Projects page results](assets/images/readme/w3chtmlcheck-projectspage.pdf)
 * [W3C Validator - Contact page results](assets/images/readme/w3chtmlcheck-contactuspage.pdf)
+
+During re-testing there were 2 errors and multiple warnings for CSS related to bootstrap.cdn but none for the CSS written for this project.
 
 ## Testing User Experience (UX)
 
